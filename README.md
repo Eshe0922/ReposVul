@@ -26,6 +26,9 @@ The constructed repository-level ReposVul encompasses 6,134 CVE entries represen
 
 ## Data Download 
 ReposVul is available at:
+https://drive.google.com/file/d/1szQ9FnIC_onQRu_TjZ2uofkjv9z_s4pv/view?usp=drive_link
+
+For each programming language, we also provide the divided data:
 
 [Programming Language: C](https://drive.google.com)
 
