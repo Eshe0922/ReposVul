@@ -27,6 +27,7 @@ The constructed repository-level ReposVul encompasses 6,134 CVE entries represen
 
 ## Data Collection Framework
 ### Raw Data Crawling
+The creation of the initial dataset involves three steps: 1) crawling vulnerability entries from open-source databases, 2) fetching patches associated with the vulnerability entry from multiple platforms, and 3) obtaining detailed information on changed files involved in the patch.
 
 ```bash
 cd github
@@ -40,7 +41,8 @@ python run.py
 ```
 
 ### Vulnerability untangling module
-
+We propose to integrate the decisions of Large Language Models (LLMs) and static analysis tools to distinguish the vulnerability-fixing related files within the patches, given their strong contextual understanding capability and domain
+knowledge, respectively.
 1. LLMs Evaluation
 ```bash
 cd llm
@@ -55,11 +57,12 @@ python run_rats.py
 python run_semgrep.py
 ```
 
-###
-Multi-granularity Dependency Extraction Module
+### Multi-granularity Dependency Extraction Module
+We extract the inter-procedural call relationships of vulnerabilities among the whole repository, aiming to construct multi-granularity information for each vulnerability patch, including file-level, function-level, and line-level information.
 
-###
-Trace-based Filtering Module
+### Trace-based Filtering Module
+We first track the submission history of patches based on file paths and commit time. Through analyzing historical information on the patches, we then identify outdated patches by tracing their commit diffs.
+
 ```bash
 cd github
 python window.py
