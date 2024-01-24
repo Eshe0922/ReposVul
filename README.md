@@ -24,6 +24,12 @@ To address the above limitations, in this paper, we propose an automated data co
 
 The constructed repository-level ReposVul encompasses 6,134 CVE entries representing 236 CWE types across 1,491 projects and four programming languages. Thorough data analysis and manual checking demonstrate that ReposVul is high in quality and alleviates the problems of tangled and outdated patches in previous vulnerability datasets.
 
+## Data Download 
+ReposVul is available at:
+[C](https://drive.google.com)
+[C++](https://drive.google.com)
+[Java](https://drive.google.com)
+[Python](https://drive.google.com)
 
 ## Data Collection Framework
 ### Raw Data Crawling
@@ -58,7 +64,7 @@ python run_semgrep.py
 ```
 
 ### Multi-granularity Dependency Extraction Module
-We extract the inter-procedural call relationships of vulnerabilities among the whole repository, aiming to construct multi-granularity information for each vulnerability patch, including file-level, function-level, and line-level information.
+We extract the inter-procedural call relationships of vulnerabilities among the whole repository, aiming to construct multi-granularity information for each vulnerability patch, including file-level, function-level, and line-level information.
 
 ### Trace-based Filtering Module
 We first track the submission history of patches based on file paths and commit time. Through analyzing historical information on the patches, we then identify outdated patches by tracing their commit diffs.
@@ -74,8 +80,7 @@ cd chrome
 python window.py
 ```
 
-###
-Data Merge
+### Data Merge
 ```bash
 cd github
 python merge.py
