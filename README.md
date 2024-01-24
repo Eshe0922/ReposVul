@@ -18,18 +18,22 @@
 
 ## Guides
 
-Open-Source Software (OSS) vulnerabilities bring great challenges to the software security and pose potential risks to our society. Enormous efforts have been devoted into automated vulnerability detection, among which deep learning (DL)-based approaches have proven to be the most effective. However, the performance of the DL-based approaches generally relies on the quantity and quality of labeled data, and the current labeled data present the following limitations: (1) Tangled Patches: Developers may submit code changes unrelated to vulnerability fixes within patches, leading to tangled patches. (2) Lacking Inter-procedural Vulnerabilities: The existing vulnerability datasets typically contain function-level and file-level vulnerabilities, ignoring the relations between functions, thus rendering the approaches unable to detect the inter-procedural vulnerabilities. (3) Outdated Patches: The existing datasets usually contain outdated patches, which may bias the model during training.
+Open-Source Software (OSS) vulnerabilities bring great challenges to the software security and pose potential risks to our society. Enormous efforts have been devoted into automated vulnerability detection, among which deep learning (DL)-based approaches have proven to be the most effective. However, the performance of the DL-based approaches generally relies on the quantity and quality of labeled data, and the current labeled data present the following limitations: (1) **Tangled Patches:** Developers may submit code changes unrelated to vulnerability fixes within patches, leading to tangled patches. (2) **Lacking Inter-procedural Vulnerabilities:** The existing vulnerability datasets typically contain function-level and file-level vulnerabilities, ignoring the relations between functions, thus rendering the approaches unable to detect the inter-procedural vulnerabilities. (3) **Outdated Patches:** The existing datasets usually contain outdated patches, which may bias the model during training.
 
-To address the above limitations, in this paper, we propose an automated data collection framework and construct the first repository-level high-quality vulnerability dataset named ReposVul. The proposed framework mainly contains three modules: (1) A vulnerability untangling module, aiming at distinguishing vulnerability-fixing related code changes from tangled patches, in which the Large Language Models (LLMs) and static analysis tools are jointly employed. (2) A multi-granularity dependency extraction module, aiming at capturing the inter-procedural call relationships of vulnerabilities, in which we construct multiple-granularity information for each vulnerability patch, including repository-level, file-level, function-level, and line-level. (3) A trace-based filtering module, aiming at filtering the outdated patches, which leverages the file path trace-based filter and commit time trace-based filter to construct an up-to-date dataset.
+To address the above limitations, in this paper, we propose an automated data collection framework and construct the first repository-level high-quality vulnerability dataset named **ReposVul**. The proposed framework mainly contains three modules: (1) A vulnerability untangling module, aiming at distinguishing vulnerability-fixing related code changes from tangled patches, in which the Large Language Models (LLMs) and static analysis tools are jointly employed. (2) A multi-granularity dependency extraction module, aiming at capturing the inter-procedural call relationships of vulnerabilities, in which we construct multiple-granularity information for each vulnerability patch, including repository-level, file-level, function-level, and line-level. (3) A trace-based filtering module, aiming at filtering the outdated patches, which leverages the file path trace-based filter and commit time trace-based filter to construct an up-to-date dataset.
 
 The constructed repository-level ReposVul encompasses 6,134 CVE entries representing 236 CWE types across 1,491 projects and four programming languages. Thorough data analysis and manual checking demonstrate that ReposVul is high in quality and alleviates the problems of tangled and outdated patches in previous vulnerability datasets.
 
 ## Data Download 
 ReposVul is available at:
-[C](https://drive.google.com)
-[C++](https://drive.google.com)
-[Java](https://drive.google.com)
-[Python](https://drive.google.com)
+
+[Programming Language: C](https://drive.google.com)
+
+[Programming Language: C++](https://drive.google.com)
+
+[Programming Language: Java](https://drive.google.com)
+
+[Programming Language: Python](https://drive.google.com)
 
 ## Data Collection Framework
 ### Raw Data Crawling
