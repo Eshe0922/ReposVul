@@ -30,13 +30,13 @@ https://drive.google.com/file/d/1szQ9FnIC_onQRu_TjZ2uofkjv9z_s4pv/view?usp=drive
 
 For each programming language, we also provide the divided data:
 
-[Programming Language: C] https://drive.google.com/file/d/1UNHKaEU1Hls5fmOFLW2YefGN1FqGeOrA/view?usp=drive_link
+[Programming Language: C](https://drive.google.com/file/d/1UNHKaEU1Hls5fmOFLW2YefGN1FqGeOrA/view?usp=drive_link)
 
-[Programming Language: C++] https://drive.google.com/file/d/1jYwIOXJUHhbTA0UkKVLQYyuxKBlv2kKO/view?usp=drive_link
+[Programming Language: C++](https://drive.google.com/file/d/1jYwIOXJUHhbTA0UkKVLQYyuxKBlv2kKO/view?usp=drive_link)
 
-[Programming Language: Java] https://drive.google.com/file/d/18pkURdURNzQItFy2DdA0b7lNhfGCnEdZ/view?usp=drive_link
+[Programming Language: Java](https://drive.google.com/file/d/18pkURdURNzQItFy2DdA0b7lNhfGCnEdZ/view?usp=drive_link)
 
-[Programming Language: Python] https://drive.google.com/file/d/1-KOYI9h5G-UDB1UCBpitPq-6OWCy6YRa/view?usp=drive_link
+[Programming Language: Python](https://drive.google.com/file/d/1-KOYI9h5G-UDB1UCBpitPq-6OWCy6YRa/view?usp=drive_link)
 
 ## Data Collection Framework
 ### Raw Data Crawling
