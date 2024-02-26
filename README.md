@@ -26,9 +26,6 @@ The constructed repository-level ReposVul encompasses 6,134 CVE entries represen
 
 ## Data Download 
 
-We will provide the download link for the data later.
-
-<!--
 ReposVul is available at:
 
 ```bash
@@ -44,7 +41,6 @@ For each programming language, we also provide the divided data:
 [Programming Language: Java](https://drive.google.com/file/d/18pkURdURNzQItFy2DdA0b7lNhfGCnEdZ/view?usp=drive_link)
 
 [Programming Language: Python](https://drive.google.com/file/d/1-KOYI9h5G-UDB1UCBpitPq-6OWCy6YRa/view?usp=drive_link)
--->
 
 ## Data Collection Framework
 ### Raw Data Crawling
