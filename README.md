@@ -32,7 +32,7 @@
 ReposVul is available at:
 
 ### Download Data via Google Drive
-1. Download the test data from [Google Drive](https://drive.google.com/file/d/1szQ9FnIC_onQRu_TjZ2uofkjv9z_s4pv/view?usp=drive_link), or simply use the following links:
+1. Download the all data from [Google Drive](https://drive.google.com/file/d/1szQ9FnIC_onQRu_TjZ2uofkjv9z_s4pv/view?usp=drive_link), or simply use the following links:
 ```bash
 https://drive.google.com/file/d/1szQ9FnIC_onQRu_TjZ2uofkjv9z_s4pv/view?usp=drive_link
 ```
