@@ -22,7 +22,6 @@
     <b><em>ICSE 2024 Challenge Track</em></b>
   </p>
 </div>
-
 <hr>
 
 ## 🔥 News
