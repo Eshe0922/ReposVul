@@ -68,7 +68,7 @@ The constructed repository-level ReposVul encompasses 6,134 CVE entries represen
 
 
 
-## Data Collection Framework
+## 🛠️ Data Collection Framework
 🤯**Raw Data Crawling:** The creation of the initial dataset involves three steps: 1) crawling vulnerability entries from open-source databases, 2) fetching patches associated with the vulnerability entry from multiple platforms, and 3) obtaining detailed information on changed files involved in the patch.
 
 📅 **Vulnerability Untangling Module:** We propose to integrate the decisions of Large Language Models (LLMs) and static analysis tools to distinguish the vulnerability-fixing related files within the patches, given their strong contextual understanding capability and domain knowledge, respectively.
