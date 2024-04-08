@@ -80,6 +80,74 @@ The constructed repository-level ReposVul encompasses 6,134 CVE entries represen
 > [WARNING]
 > The code is not well-organized and fully tested. If you encounter any issues, please feel free to raise issues or submit PRs. Thanks!
 
+## 🔍 Data Description
+
+.
++-- index
++-- cve_id
++-- cwe_id
++-- cve_language
++-- cve_description
++-- cvss
++-- publish_date
++-- AV
++-- AC
++-- PR
++-- UI
++-- S
++-- C
++-- I
++-- A
++-- commit_id
++-- commit_message
++-- commit_date
++-- project
++-- url
++-- html_url
++-- outdated
++-- cwe_description
++-- cwe_consequence
++-- cwe_method
++-- cwe_solution
++-- details
+|   +-- raw_url
+|   +-- code
+|   +-- code_before
+|   +-- patch
+|   +-- file_path
+|   +-- file_language
+|   +-- file_name
+|   +-- outdated_file_modify
+|   +-- outdated_file_before
+|   +-- outdated_file_after
+|   +-- llm_check
+|   +-- static_check
+|   +-- static
+    |   +-- flawfinder
+    |   +-- rats
+    |   +-- semgrep
+    |   +-- cppcheck
+|   +-- target
+|   +-- function_before
+    |   +-- function
+    |   +-- target
+|   +-- function_after
+    |   +-- function
+    |   +-- target
++-- windows_before
+|   +-- commit_id
+|   +-- commit_date
+|   +-- commit_message
+|   +-- files_name
++-- windows_after
+|   +-- commit_id
+|   +-- commit_date
+|   +-- commit_message
+|   +-- files_name
++-- parents
+|   +-- commit_id_before
+|   +-- url_before
+|   +-- html_url_before
 
 ## 📝 Citation
 
