@@ -61,7 +61,7 @@ def merge_alldata(Year='2023', Month='1',index = 0, total = 0):
                 merge_data['cvss'] = CVEinfo[CVEinfo_id]['cvss']
                 merge_data['publish_date'] = CVEinfo[CVEinfo_id]['date']
                 merge_data['AV'] = CVEinfo[CVEinfo_id]['AV']
-                merge_data['AC'] = CVEinfo[CVEinfo_id]['AV']
+                merge_data['AC'] = CVEinfo[CVEinfo_id]['AC']
                 merge_data['PR'] = CVEinfo[CVEinfo_id]['PR']
                 merge_data['UI'] = CVEinfo[CVEinfo_id]['UI']
                 merge_data['S'] = CVEinfo[CVEinfo_id]['S']
