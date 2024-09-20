@@ -39,11 +39,11 @@ https://drive.google.com/file/d/1szQ9FnIC_onQRu_TjZ2uofkjv9z_s4pv/view?usp=drive
 
 > [NOTE]
 > &#128712; For each programming language, we also provide the divided data: .
-- `[Programming Language: C++]`:
+- `[Programming Language: C]`:
 ```bash
 (https://drive.google.com/file/d/1UNHKaEU1Hls5fmOFLW2YefGN1FqGeOrA/view?usp=drive_link)
 ```
-- `[Programming Language: C]`:
+- `[Programming Language: C++]`:
 ```bash
 (https://drive.google.com/file/d/1jYwIOXJUHhbTA0UkKVLQYyuxKBlv2kKO/view?usp=drive_link)
 ```
