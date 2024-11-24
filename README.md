@@ -24,6 +24,12 @@
 </div>
 <hr>
 
+## 🙂 Vulnearability Detection Competition
+- We have released the training, validation, and test datasets in C and C++ programming languages, which includes repository-level, function-level and line-level information.
+```bash
+https://drive.google.com/file/d/1sQynG6Fe2h2zmZ7MFGtAHGIhL3PAZuXF/view?usp=drive_link
+```
+  
 ## 🔥 News
 - *Feb 3th, 2024*: ReposVul is accepted to ICSE 2024 Challenge Track! 🎉
 
